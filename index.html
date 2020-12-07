@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="author" content="Johannes Berrocal">
+    <meta name="description" content="Venta de relojes Fossil">
+    <title>Reloj Fossil</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="header_nav">
+            <div class="nav1_izq">
+                <span>400+ NEW ITEMS ADDED TO SALE*</span>
+            </div>
+            <div class="nav1_der">
+                <span class="navd_text">CUSTOMER CARE</span>
+                <span class="navd_text">ORDER STATUS</span>
+                <ul>
+                    <li><i class="icofa fas fa-map-marker-alt"></i></li>
+                    <li><i class="icofa fas fa-user"></i></li>
+
+                    <!-- carrito -->
+                    <li class="submenu"><i class="icofa fas fa-shopping-cart"></i>
+                        <div id="carrito_canasta" class="carrito_canasta">
+                            <table id="lista_carrito_canasta" class="u-full-width">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                                <!-- aqui se estara inyectando html desde js -->
+                            </table>
+
+                            <a href="#" id="vaciar-carrito" class="a_vaciar_carrito">Vaciar Carrito</a>
+                        </div>
+                        <!-- carrito -->
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="titulo">
+            <h1>FOSSIL</h1>
+        </div>
+
+        <nav class="header_nav2">
+            <ul class="nav2">
+                <li>WOMEN</li>
+                <li>MAN</li>
+                <li>WATCHES</li>
+                <li>BAGS</li>
+                <li>WALLETS</li>
+                <li>JEWERLY</li>
+                <li>SMARTWACHES</li>
+                <li>GIFTS</li>
+                <li>SALE</li>
+                <li>OUTLET</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!---CONTENEDOR: HERO ---------------------------->
+    <section class="main">
+
+        <div class="hero">
+            <div class="hero_contenedor">
+                <div class="hero_contenedor_texto">
+                    <span class="text_1">DISCOVER</span>
+                    <span class="text_2">FOSSIL WATCHES</span>
+                    <span class="text_3">EXPLORE THE COLLECTION</span>
+                </div>
+
+                <div class="hero_contenedor_img">
+                    <img src="img/reloj_principal.jpg" alt="logo_reloj" class="img_reloj">
+                </div>
+            </div>
+        </div>
+        
+
+        <!---CONTENEDOR: CATEGORIAS ------------------------------->
+        <div class="contenedor_categorias">
+
+            <article class="categoria">
+                <div class="contenido">
+                    <span class="categoria_promo">Novedades</span>
+                    <h2 class="categoria_titulo">Relojes (El)</h2>
+                    <p class="categoria_texto">Nueva Colección</p>
+                </div>
+            </article>
+            <article class="categoria">
+                <div class="contenido">
+                    <span class="categoria_promo">Novedades</span>
+                    <h2 class="categoria_titulo">Relojes (Ella)</h2>
+                    <p class="categoria_texto">Nueva Colección</p>
+                </div>
+            </article>
+            <article class="categoria">
+                <div class="contenido">
+                    <span class="categoria_promo">Novedades</span>
+                    <h2 class="categoria_titulo">Accesorios</h2>
+                    <p class="categoria_texto">Nueva Colección</p>
+                </div>
+            </article>
+        </div>
+
+        <!---CONTENEDOR: PRODUCTOS RELOJES--------------------------------->
+        <div id="lista_relojes" class="contenedor_relojes">
+
+            <div>
+                <h3 class="contenedor_relojes_titulo">NUEVOS MODELOS Y OFERTAS</h3>
+            </div>
+            
+            <div class="contendor_productos">
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_4.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="1">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_6.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="2">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_12.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="3">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_11.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="4">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_4.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="5">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_4.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="6">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_4.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="7">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_7.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="8">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+                <div class="card_producto">
+                    <img class="divrelo" src="img/reloj_16.jpg" alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="9">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+                <div class="card_producto">
+                    <img src="img/reloj_9.jpg" class="divrelo"  alt="reloj">
+                    <div class="card_producto_textos">
+                        <p class="card_producto_nombre">Lorem ipsum dolor sit amet consectetur.</p>
+                        <span class="card_producto_precio">$.345.99</span>                        
+                        <a href="#" class="btn_agregar_carrito" data-id="10">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>       
+
+            </div>
+        </div>
+
+        <!---CONTENEDOR: IMAGENES-------------------------------->
+        <div class="contenedor_imagenes_promocion">
+
+            <div class="contenedor_promocion_1">
+                <img src="img/reloj_publi.JPG" alt="ddd" class="img_reloj_promociones">
+            </div>
+
+            <div class="contenedor_promocion_2">
+
+                <div class="rpimg_2">
+                    <span class="text_rpimg_1">INSPIRED BY MINIMALISM</span>
+                </div>
+
+                <div class="rpimg_3">
+                    <span class="text_rpimg_2">MODERN MARBLE</span>
+                </div>
+
+                <div class="rpimg_4">
+                    <img src="img/reloje_hori.jpg" alt="" class="img_reloj_promociones2">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!---CONTENEDOR: FOOTER---------------------------------->
+    <!-- <footer class="footer">
+
+        <div class="foot_redsoc">
+
+            <div class="div_mail">
+                <span>STAY CONNECT</span>
+                <input type="email" name="correo" value="" placeholder="Enter Email Address">
+
+            </div>
+
+            <div class="div_redsoc">
+                <i class="reso fab fa-facebook-f "></i>
+                <i class="reso fab fa-twitter "></i>
+                <i class="reso fab fa-pinterest "></i>
+                <i class="reso fab fa-google-plus-g "></i>
+                <i class="reso fab fa-instagram "></i>
+            </div>
+        </div>
+
+        <div class="foot_nav">
+            <div class="nav_ul">
+                <img src="img/SVG/logo-footer.svg" alt="Logo-Fosil">
+            </div>
+            <div class="nav_ul">
+                <ul>
+                    <li class="li">Fossil Group</li>
+                    <li class="li">Regulatory Compliance </li>
+                    <li class="li">Blog</li>
+                    <li class="li">FOSSIL FOUNDATION</li>
+                    <li class="li">Be A Fan!</li>
+                    <li class="li">ABOUT US</li>
+                    <li class="li">Careers</li>
+                    <li class="li">Store Locator</li>
+                </ul>
+
+            </div>
+            <div class="nav_ul">
+                <span class="span_li">Customer Care</span>
+                <ul>
+                    <li class="li">Order Status</li>
+                    <li class="li">Warranty & Repairs</li>
+                    <li class="li">Watch Care & Instructions</li>
+                    <li class="li">FAQ</li>
+                    <li class="li">International Orders</li>
+                    <li class="li">Returns & Exchanges</li>
+                    <li class="li">Gift Services</li>
+                    <li class="li">Battery Replacement</li>
+                </ul>
+            </div>
+            <div class="nav_ul">
+                <span class="span_li">CONTACT US</span>
+                <ul>
+                    <li class="li">fossil@fossil.com</li>
+                    <li class="li">1 (800) 449-3056</li>
+                    <li class="li">Monday-Friday:</li>
+                    <li class="li">8am - 7pm CT</li>
+                    <li class="li">Saturday:</li>
+                    <li class="li">9:30am - 6pm CT</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="foot_corp">
+            <div class="div_corp">
+                <span class="span_corp">GROUP INC</span>
+                <span class="span_corp">COPY RIGTH</span>
+                <span class="span_corp">PRIVACY POLICY</span>
+                <span class="span_corp">APP PRIVACY POLICY</span>
+                <span class="span_corp">CA USE</span>
+                <span class="span_corp">STORE</span>
+                <span class="span_corp">TERMS OF USE</span>
+            </div>
+        </div>
+
+    </footer> -->
+
+    <!--https://msrdesign.com/
+https://weboo.eu/
+https://boldearth.com/
+https://www.bravissimo.se/utvalda-uppdrag/
+https://www.teapot-creation.com/#/page/home
+http://www.boy-coy.com/#home
+http://www.k95.it/en/
+-->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
