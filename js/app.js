@@ -82,7 +82,7 @@ function carritoHTML() {
         <td>${paramentroReloj.precio}</td>
         <td>${paramentroReloj.cantidad}</td>
         <td><a href="#" data-id="${paramentroReloj.id}" class="borrar_carrito">X</a></td>
-        
+
         `
 
         listaCarritoCanasta.appendChild(row)
@@ -107,39 +107,39 @@ const botonActivo = () => {
 }
 botonActivo('click');
 /** Anotaciones
- * 
+ *
  * Creacipon de variables
  * 01: ubicar los id que se van a trabajar en este caso, creamos un evento que al dar click en el enlace de agregar al carrito nos muestre su info.
  * Seleccionamos el id 'lista_relojes' que vendria hacer el div principal de los card de los relojes
- * 
+ *
  * 02: Seleccionamos el id 'carrito_canasta' que vendria hacer el div principal del contenedor donde se mostrar los productos seleccionados
- * 
+ *
  * 03: Seleccionamos el id 'lista_carrito_canasta' que vendria hacer el sub contenedor donde se mostrar los productos seleccionados en una tabla, y tambien seleccionamos la etiqueta tbody
- * 
+ *
  * 04: Seleccionamos el id de 'vaciar-carrito'. que se encuentra dentro del contenedor carrito_canasta
- * 
+ *
  *  Creacion de funciones:
  * 05:Luego de crear nuestar variables, Creamos una funcion que escuhe los eventos que haremos al dar click en los enlaces, como: Agregar Carrito o Vaciar Carrito
  * En este caso: agregar Carrito
- * 
+ *
  * luego crear la funcion: agregarCarrito:
- * 
+ *
  * unavez comprobado, tenemos que hacr uso de traversin para capaturar la informacion de los elementoss
- * 
+ *
  * crreamos una funciones: leerdatos, que se agregara a la funcion agregarCarrito, y se enviara como parametro los valores obtenidos de: e.target.parentElement;
- * 
+ *
  * leerdatos(relojSeleccionado)
- * 
+ *
  * Luego en la seccion leerDatos, crearemos un obejto para almacenar la informacio obtenido de agregarCarrito
- * 
- * 
- * 
+ *
+ *
+ *
  * Mostrar los relojes seleccionados en el carrito d compra
- * 
+ *
  * primero: creamos una variables de tipo let con in arrelo vacio
- * 
+ *
  * esta variable lo agregamos dentrode la funcion leerDatos
- * 
+ *
  * Mostrando los datos del objeto en el carrito
- * 
+ *
  */

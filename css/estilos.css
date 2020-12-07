@@ -34,7 +34,6 @@ header {
     font-size: 12px;
     display: inline-block;
     margin: 0 25px;
-    /* background-color: red; */
 }
 
 .nav1_der ul {
@@ -90,9 +89,6 @@ li {
     position: relative;
     padding: 10px;
     margin-left: 6px;
-    /* background-color: #ffd60e;
-    border: 1px solid #fff; */
-
 }
 
 .submenu #carrito_canasta {
@@ -186,7 +182,6 @@ section.main{
 .hero_contenedor_img {
     width: 480px;
     margin: 5px 30px;
-    /* height: 400px;  */
 }
 
 
@@ -213,7 +208,6 @@ section.main{
 
 .img_reloj {
     width: 100%;
-    /* position: relative; */
 }
 
 
@@ -222,7 +216,6 @@ section.main{
 
 .contenedor_categorias {
     width: 100%;
-    /* height: 60vh; */
     height: 100%;
     text-align: center;
     display: flex;
@@ -234,7 +227,6 @@ section.main{
 article.categoria {
     width: 370px;
     height: 320px;
-    /* height: 10px; */
     background-color: #f0f0f0;
     display: inline-block;
     text-align: center;
@@ -247,7 +239,6 @@ article.categoria {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    /* background-color: plum; */
     flex-direction: column;
     padding: 60px 60px
 }
@@ -293,7 +284,6 @@ p {
     color: #a4a4a4;
     padding: 14px;
     font-size: 12px;
-    /*]display: inline-block;*/
     border: 1px solid #a4a4a4;
 }
 
@@ -322,9 +312,6 @@ p {
     border-radius: 2px;
     box-shadow:1px 5px 9px 0px rgba(61, 61, 61, 0.12);
 }
-.card_producto_textos{
-    
-}
 
 .card_producto_textos .card_producto_nombre{
     display: block;
@@ -343,7 +330,6 @@ p {
     width: 100%;
 }
 
-/* .carrito { */
 
 .btn_agregar_carrito {
     font-size: 13px;
@@ -379,7 +365,6 @@ p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .contenedor_promocion_1 {
@@ -438,8 +423,6 @@ p {
     margin-top: 100px;
     color: white;
 }
-
-
 /*---------FOOTER---------*/
 
 .footer {
@@ -458,9 +441,6 @@ p {
     justify-content:center;
     margin-bottom: 20px;
 }
-
-
-/*------------TRABAJAR aqui--------------*/
 
 .contenedor_email{
     width: 50%;
@@ -483,9 +463,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-
-
-/*------------fin aqui--------------*/
 
 .reso {
     padding-left: 10px;
@@ -554,8 +531,6 @@ input {
 }
 
 
-/*-----FIN FOOTER -----*/
-
 
 /* ***************************** *
 *          RESPONSIVE            *
@@ -595,7 +570,6 @@ article.categoria {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    /* background-color: plum; */
     flex-direction: column;
     padding: 60px 60px
 }
@@ -659,14 +633,12 @@ p {
 
 .contenedor_promocion_1 {
     width: 580px;
-    /* height: 590px; */
     height: 100%;
     margin: 10px; 
 }
 
 .contenedor_promocion_2 {
     width: 100%;
-    /* height: 590px; */
     height: 100%;
     margin: 10px; 
     box-sizing: border-box;
@@ -714,12 +686,10 @@ p {
     margin-top: 5px;
 }
 .footer{
-    
     display: flex;
     height: 100%;
     width: 100%;
     flex-direction: column;
-
 }
 
 
@@ -739,13 +709,9 @@ p {
     text-align: center;
 }
 
-
-
 .contenedor_redesociales {
     width: 100%;
-    height: 100%;
-    /* background-color: #1a1a1a; */
-    
+    height: 100%; 
     box-sizing: border-box;
     text-align: center;
     margin-top: 20px;
@@ -757,21 +723,17 @@ p {
     width: 100%;
     height: 60px;
     font-size: 20PX;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .contenedor_email{
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16PX;
-
 }
 .foot_corp{
-    
     width: 100%;
     height: 100%;
     justify-content: center ;
@@ -792,14 +754,12 @@ p {
     font-size: 10px;
     display: block;
     margin: 5px;
-    padding: 2px;
-    
+    padding: 2px;  
 }
 
 .header_nav {
     width: 100%;
     height: 60px;
-    
     font-family: arial;
     display: flex;
     justify-content: space-between;
