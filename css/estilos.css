@@ -90,8 +90,8 @@ li {
     position: relative;
     padding: 10px;
     margin-left: 6px;
-    background-color: #ffd60e;
-    border: 1px solid #fff;
+    /* background-color: #ffd60e;
+    border: 1px solid #fff; */
 
 }
 
@@ -379,23 +379,28 @@ p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: royalblue;
+
 }
 
 .contenedor_promocion_1 {
     width: 580px;
     height: 590px;
     margin: 10px; 
-    background-color: rgb(92, 225, 65);
 }
 
 .contenedor_promocion_2 {
     width: 580px;
     height: 590px;
     box-sizing: border-box;
-    background-color: rgb(225, 142, 65);
 }
 
+.img_reloj_promociones{
+    width: 100%;
+}
+
+.img_reloj_promociones2{
+    width: 100%;
+}
 .rpimg_2 {
     background-color: #f0f0f0;
     width: 282px;
@@ -440,42 +445,43 @@ p {
 .footer {
     width: 100%;
     height: 450px;
+    margin-top: 70px;
 }
 
-.foot_redsoc {
+.contenedor_redesociales {
     width: 100%;
     height: 90px;
     background-color: #1a1a1a;
     box-sizing: border-box;
     text-align: center;
-    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
 }
 
 
 /*------------TRABAJAR aqui--------------*/
 
-.div_mail {
-    width: 580px;
-    height: 60px;
-    display: inline-block;
-    margin: 15px;
+.contenedor_email{
+    width: 50%;
     font-size: 20PX;
     color: white;
     box-sizing: border-box;
-    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: left;
 }
 
-.div_redsoc {
-    width: 580px;
-    height: 60px;
-    display: inline-block;
-    margin: 10px;
+.contenedor_iconos_redes_sociales{
+    width: 50%;
     font-size: 20PX;
     color: white;
     box-sizing: border-box;
-    vertical-align: top;
     text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -560,35 +566,9 @@ input {
 .hero {
     height:85vh;
     margin-top: 10px;
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
     display: flex;
 }
-
-/* .hero_contenedor_texto {
-    width: 100%;
-     height: 320px; 
-    height: 40%;
-}
-
-
-.hero_contenedor_img { 
-    margin-left: 0px;
-    height: 40%;
-}
-
-.text_1 {
-    font-size: 18px;
-    margin-top: 60px;
-}
-.text_2 {
-    font-size: 30px;
-} */
-
-/* img {
-    width: 80%;
-} */
-
-
 
 
 /* CATEGORIA */
@@ -601,7 +581,7 @@ input {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rebeccapurple;
+    
     padding: 20px 0;
 }
 
@@ -646,7 +626,8 @@ p {
 }
 .contenedor_relojes {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    
 }
 .contenedor_relojes_titulo{
     font-size: 25px;
@@ -673,7 +654,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: red;
+    
 }
 
 .contenedor_promocion_1 {
@@ -689,21 +670,148 @@ p {
     height: 100%;
     margin: 10px; 
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .img_reloj_promociones{
     width: 100%;
 }
 .img_reloj_promociones2{
-width: 100%;
+    width: 100%;
+}
+
+
+.rpimg_2 {
+
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.text_rpimg_1 {
+    font-size: 26px;
+    padding: 20px;
+    
+}
+.text_rpimg_2 {
+    font-size: 26px;
+    padding: 20px;
+}
+.rpimg_3 {
+
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .rpimg_4 {
     width: 100%;
-    height: 298px;
+    height: 100%;
     display: inline-block;
     vertical-align: top;
     margin-top: 5px;
+}
+.footer{
+    
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+
+.foot_nav{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_ul{
+    width: 80%;
+    height: 80%;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+.contenedor_redesociales {
+    width: 100%;
+    height: 100%;
+    /* background-color: #1a1a1a; */
+    
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor_iconos_redes_sociales{
+    width: 100%;
+    height: 60px;
+    font-size: 20PX;
+    text-align: center;
+    
+}
+
+.contenedor_email{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16PX;
+
+}
+.foot_corp{
+    
+    width: 100%;
+    height: 100%;
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+}
+.div_corp {
+    display: flex;
+    margin: 5px;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.span_corp {
+    margin-left: 0PX;
+    font-family: arial;
+    font-size: 10px;
+    display: block;
+    margin: 5px;
+    padding: 2px;
+    
+}
+
+.header_nav {
+    width: 100%;
+    height: 60px;
+    
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 8px;
+}
+
+.submenu {
+    position: relative;
+    padding: 10px;
+    margin: 2px;
 }
 
 }
