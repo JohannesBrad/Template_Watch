@@ -34,7 +34,7 @@ function leerDatos(reloj) {
     console.log(reloj);
     // creando Objeto
     const infoReloj = {
-            imagen: reloj.querySelector('img').src,
+            // imagen: reloj.querySelector('img').src,
             marca: reloj.querySelector('.card_producto_nombre').textContent,
             precio: reloj.querySelector('.card_producto_precio').textContent,
             id: reloj.querySelector('a').getAttribute('data-id'),

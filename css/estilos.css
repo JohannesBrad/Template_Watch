@@ -235,12 +235,19 @@ article.categoria {
     margin: 50px 10px;
 }
 
+/* prueba */
+article:nth-child( odd ){ background-color:#000000; color: #fff !important}
+article:nth-child( even ){ background-color:#fff; border:1px solid #c5c3c3}
+article:nth-child(3n+0) {  background-color: #f0f0f0; }
+/* prueba */
+
 .contenido {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     flex-direction: column;
-    padding: 60px 60px
+    /* padding: 60px 60px */
+    padding: 50px 20px;
 }
 
 .categoria_promo {
@@ -571,7 +578,8 @@ article.categoria {
     align-items: flex-end;
     justify-content: center;
     flex-direction: column;
-    padding: 60px 60px
+    /* padding: 60px 60px */
+    padding: 50px 20px;
 }
 
 .categoria_promo {
